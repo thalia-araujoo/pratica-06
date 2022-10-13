@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <locale.h>
+int main() {
+    setlocale(LC_ALL, "Portuquese_Brazil");
+    
+    float m, h, divisao;
+    
+    printf("IMC\n");
+    
+    printf("informe o número da sua massa:\n ");
+    scanf("%f", &m);
+    
+    printf("informe o número da sua altrua :\n ");
+    scanf("%f", &h);
+    
+    
+    
+    divisao = m / (h*h);
+    
+    printf("O Resultado do calculo do seu IMC %f, %f foi: %f", m, h, divisao);
+    
+    
+
+    return 0;
+}
