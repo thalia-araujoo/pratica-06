@@ -1,0 +1,20 @@
+#include <locale.h>
+int main() {
+    setlocale(LC_ALL, "Portuquese_Brazil");
+    
+    float d, v, troco, subtracao;
+    
+    printf("Maquina de Café\n");
+    
+    printf("informe a quantidade de dinheiro:\n ");
+    scanf("%f", &d);
+    
+    printf("informe o valor do café:\n ");
+    scanf("%f", &v);
+    
+    troco = d - v;
+    
+    printf("O seu troco %f, %f é: %f", d, v, troco, subtracao);
+    
+    return 0;
+}
