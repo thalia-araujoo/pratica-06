@@ -3,8 +3,6 @@
 int main() {
     setlocale(LC_ALL, "Portuquese_Brazil");
     
-    float b, h, multiplicacao;
-    
     printf("Imagem de saudação\n");
     
     printf("#####################");
