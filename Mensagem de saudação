@@ -1,0 +1,51 @@
+#include <stdio.h>
+#include <locale.h>
+int main() {
+    setlocale(LC_ALL, "Portuquese_Brazil");
+    
+    float b, h, multiplicacao;
+    
+    printf("Imagem de saudação\n");
+    
+    printf("#####################");
+    
+    
+    printf("#    ");
+    
+    
+    printf("#    ");
+    
+    
+    printf("#    ");
+    
+    
+    printf("#    ");
+    
+    
+    printf("#    ");
+    
+    
+        
+    printf("SEJA BEM-VINDO");
+    
+    
+    
+    printf("#     ");
+    
+    
+    printf("#     ");
+    
+    
+    printf("#     ");
+    
+    
+    printf("#     ");
+    
+    
+    printf("#     ");
+    
+    
+    printf("#####################");
+
+    return 0;
+}
