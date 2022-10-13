@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <locale.h>
+int main() {
+    setlocale(LC_ALL, "Portuquese_Brazil");
+    
+    float b, h, multiplicacao;
+    
+    printf("Área de um triângulo\n");
+    
+    printf("informe a base: ");
+    scanf("%f", &b);
+    
+    printf("informe a altura: ");
+    scanf("%f", &h); 
+    
+    multiplicacao = (b*h) / 2;
+    
+     printf("O resultado do calculo da multiplicação %f, %f foi:%f", b, h, multiplicacao);
+     
+    return 0;
+}
